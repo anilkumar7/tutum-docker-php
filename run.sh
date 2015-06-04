@@ -1,4 +1,5 @@
 #!/bin/bash
+#run script
 chown www-data:www-data /app -R
 
 if [ "$ALLOW_OVERRIDE" = "**False**" ]; then
